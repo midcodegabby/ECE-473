@@ -1,0 +1,21 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/avr-gcc",
+      "-g",
+      "-Wall",
+      "-O2",
+      "-mmcu=atmega32u4",
+      "-DF_CPU=8000000UL",
+      "-c",
+      "-I",
+      "/home/ryan/.local/include",
+      "-o",
+      "main.o",
+      "main.c"
+    ],
+    "directory": "/home/ryan/ECE473/labs/lab1",
+    "file": "/home/ryan/ECE473/labs/lab1/main.c",
+    "output": "/home/ryan/ECE473/labs/lab1/main.o"
+  }
+]

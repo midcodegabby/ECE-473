@@ -1,0 +1,8 @@
+lcd/glyph.o: ../../src/lcd/glyph.c ../../src/lcd/glyph.h \
+ /usr/lib/gcc/avr/5.4.0/include/stdint.h /usr/lib/avr/include/stdint.h
+
+../../src/lcd/glyph.h:
+
+/usr/lib/gcc/avr/5.4.0/include/stdint.h:
+
+/usr/lib/avr/include/stdint.h:
