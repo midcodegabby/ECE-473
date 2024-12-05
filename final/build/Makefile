@@ -158,7 +158,8 @@ am__define_uniq_tagged_files = \
   done | $(am__uniquify_input)`
 DIST_SUBDIRS = $(SUBDIRS)
 am__DIST_COMMON = $(srcdir)/Makefile.in $(srcdir)/config.h.in ar-lib \
-	compile config.guess config.sub install-sh ltmain.sh missing
+	compile config.guess config.sub depcomp install-sh ltmain.sh \
+	missing
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 distdir = $(PACKAGE)-$(VERSION)
 top_distdir = $(distdir)
@@ -203,15 +204,15 @@ distuninstallcheck_listfiles = find . -type f -print
 am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} '/home/gab/classes/ece473/final/missing' aclocal-1.16
+ACLOCAL = ${SHELL} '/home/gab/classes/ECE-473/final/missing' aclocal-1.16
 AMTAR = $${TAR-tar}
 AM_CFLAGS = -g -Og -mmcu="$(MCU)"
 AM_DEFAULT_VERBOSITY = 1
 AR = avr-ar
 AS = /usr/bin/avr-as
-AUTOCONF = ${SHELL} '/home/gab/classes/ece473/final/missing' autoconf
-AUTOHEADER = ${SHELL} '/home/gab/classes/ece473/final/missing' autoheader
-AUTOMAKE = ${SHELL} '/home/gab/classes/ece473/final/missing' automake-1.16
+AUTOCONF = ${SHELL} '/home/gab/classes/ECE-473/final/missing' autoconf
+AUTOHEADER = ${SHELL} '/home/gab/classes/ECE-473/final/missing' autoheader
+AUTOMAKE = ${SHELL} '/home/gab/classes/ECE-473/final/missing' automake-1.16
 AVRDUDE = /usr/bin/avrdude
 AWK = mawk
 BEAR = 
@@ -251,7 +252,7 @@ LIPO =
 LN_S = ln -s
 LTLIBOBJS = 
 LT_SYS_LIBRARY_PATH = 
-MAKEINFO = ${SHELL} '/home/gab/classes/ece473/final/missing' makeinfo
+MAKEINFO = ${SHELL} '/home/gab/classes/ECE-473/final/missing' makeinfo
 MANIFEST_TOOL = :
 MCU = atmega32u4
 MKDIR_P = /usr/bin/mkdir -p
@@ -279,10 +280,10 @@ SET_MAKE =
 SHELL = /bin/bash
 STRIP = avr-strip
 VERSION = 1.0
-abs_builddir = /home/gab/classes/ece473/final/build
-abs_srcdir = /home/gab/classes/ece473/final/build/..
-abs_top_builddir = /home/gab/classes/ece473/final/build
-abs_top_srcdir = /home/gab/classes/ece473/final/build/..
+abs_builddir = /home/gab/classes/ECE-473/final/build
+abs_srcdir = /home/gab/classes/ECE-473/final/build/..
+abs_top_builddir = /home/gab/classes/ECE-473/final/build
+abs_top_srcdir = /home/gab/classes/ECE-473/final/build/..
 ac_ct_AR = 
 ac_ct_CC = 
 ac_ct_DUMPBIN = 
@@ -311,7 +312,7 @@ host_vendor = unknown
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/gab/classes/ece473/final/install-sh
+install_sh = ${SHELL} /home/gab/classes/ECE-473/final/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
